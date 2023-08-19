@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Roboto';
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.footer,
+.hero-container {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.information-text {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    color: #1F2937;
+}
+
+#hero-secondary-text {
+    padding-top: 2px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button,
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.button {
+    color: #E5E7EB;
+    border-radius: 5px;
+    width: auto;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-right: 1in;
+    margin-left: 1in;
+    display: flex;
+    justify-content: center;
+}
+
+.quote .quote-text {
+    padding: 1in;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1in;
+    padding-right: 1in;
+    padding-top: .2in;
+    align-items: center;
+}
+
+.header .header-left,
+.header .header-right{
+}
+
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.header-right div {
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1in;
+    padding-top: 1in;
+    gap: .5in;
+    padding-bottom: 1in;
+}
+
+.hero-container img {
+    width: 400px;
+    height: auto;
+    padding-right: 1in;
+}
+
+.information-container {
+    display: flex;
+    padding-top: 1in;
+    padding-left: 1in;
+    padding-right: 1in;
+    justify-content: center;
+}
+
+.information-images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: .75in;
+    gap: .5in;
+    padding-bottom: 1in;
+}
+
+.information-images-container img {
+    border-radius: 5px;
+    border: 4px solid #3882F6;
+    width: 200px;
+    height: 200px;
+}
